@@ -1,6 +1,6 @@
 
 
-const ComplianceCrawlerDirectoryReset = (arr) => {
+const directoryReset = (arr) => {
     let currentPath = [];
     while (arr.length > 0) {
         if (arr[0] != './' && arr[0] != '../') {
@@ -17,4 +17,4 @@ const ComplianceCrawlerDirectoryReset = (arr) => {
 const arr = ['F1/', 'F2/', './', 'F3/', '../', 'F31/'];
 // const arr = ['F1/', '../', '../']
 
-console.log(ComplianceCrawlerDirectoryReset(arr))
+console.log(directoryReset(arr))

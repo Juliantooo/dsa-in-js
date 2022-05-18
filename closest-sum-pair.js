@@ -23,4 +23,4 @@ const closestSumPair = (arr, num) => {
 
 const arr = [1, 3, 4, 7, 10]
 
-console.log(closestSumPair(arr, 9))
+console.log(closestSumPair(arr, 12))
